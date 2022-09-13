@@ -1,8 +1,5 @@
------> Node.js app detected
------> Creating runtime environment
-       
-       NPM_CONFIG_LOGLEVEL=error
-       NPM_CONFIG_PRODUCTION=true
-       NODE_VERBOSE=false
-       NODE_ENV=production
-       NODE_MODULES_CACHE=true
+$ heroku git:clone -a hfdatabase 
+$ cd hfdatabase
+$ git add .
+$ git commit -am "make it better"
+$ git push heroku master
